@@ -85,7 +85,7 @@ body {
     padding: 25px;
     position: relative;
     top: 6rem;
-    background: linear-gradient(to bottom right, rgba(70, 130, 180, 0.8), rgba(135, 206, 235, 0.7), rgba(30, 144, 255, 0.8)); /* Gradient from dark blue to sky blue */
+    background: linear-gradient(to bottom right, rgba(70, 130, 180, 0.8), rgba(135, 206, 235, 0.7), rgba(30, 144, 255, 0.8));
     background-color: rgba(130, 196, 202, 0.5); /
     display: block;
     border-radius: 13px;
@@ -94,7 +94,7 @@ body {
     align-items: center;
     width: 400px;
     height: 400px;
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(23px); 
     -webkit-backdrop-filter: blur(10px); 
     max-width: 400px;
 }
