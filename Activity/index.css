@@ -5,11 +5,12 @@
 }
 body {
     
-    background-color: rgb(150, 243, 235);
-    background-image: linear-gradient(rgba(150, 243, 235, 0.5), rgba(150, 243, 235, 0.5)), url('bg.jpg');
+   background-color: rgb(150, 243, 235);
+    background-image:url(bg.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+
 
     }
     .title{
