@@ -6,9 +6,10 @@
 body {
     
     background-color: rgb(150, 243, 235);
-    background-image:url(bg.jpg);
-
-    background-size:cover;
+    background-image: linear-gradient(rgba(150, 243, 235, 0.5), rgba(150, 243, 235, 0.5)), url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     }
     .title{
@@ -81,23 +82,23 @@ body {
         align-items: center;
         align-content:center;
     }
-    .container {
-        padding: 25px;
-        position:relative;
-        top:6rem;
-        background-color: rgb(130, 196, 202);
-        opacity: 50;
-        display:block;
-        border-radius:13px;
-        box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(137, 168, 175);
-        justify-content: center;
-        align-items: center;
-        width:400px;
-        height:450px;
-        backdrop-filter:blur(10px)
-        max-width:400px;
-      
-    }
+.container {
+    padding: 25px;
+    position: relative;
+    top: 6rem;
+    background-color: rgba(130, 196, 202, 0.5);
+    display: block;
+    border-radius: 13px;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(137, 168, 175);
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 450px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    max-width: 400px;
+}
+
     .sign-up-redirection{
         display:flex;
         margin-top:-20px;
