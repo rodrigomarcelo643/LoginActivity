@@ -107,6 +107,7 @@ body {
         position:relative;
         top:15px;
         left:10px;
+        cursor:pointer;
         text-decoration:underline;
         color:black;
     }
